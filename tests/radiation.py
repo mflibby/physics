@@ -8,7 +8,7 @@ from physics.constants.constants import *
 def main():
     st = 1.23e-6
     F = 1.6e-19
-    print(10000*brightness_temperature(100*10**6, F/st, CGS))
+    print(brightness_temperature(100*10**6, F/st, CGS))
 
 
 
